@@ -1,0 +1,6 @@
+tool: GCC
+fileName: 'M0G3507.map'
+elfName: 'M0G3507.elf'
+compilerName: 'GNU Arm Embedded Toolchain 10.3-2021.10'
+compilerFullName: 'arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)'
+compilerPath: 'D:\Tool\ArmGUNToolchain\bin\arm-none-eabi-gcc.exe'

@@ -1,0 +1,98 @@
+{
+    "name": "M0G3507",
+    "target": "Debug",
+    "toolchain": "GCC",
+    "toolchainLocation": "D:\\Tool\\ArmGUNToolchain",
+    "toolchainCfgFile": "c:\\Users\\NameY\\.vscode\\extensions\\cl.eide-3.26.9\\res\\data\\models/arm.gcc.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 32,
+    "rootDir": "d:\\Name\\Code\\TI\\Template_GCC\\IDE\\EIDE",
+    "dumpPath": "build\\Debug",
+    "outDir": "build\\Debug",
+    "incDirs": [
+        "MSPM0_SDK/source",
+        "MSPM0_SDK/source/ti/devices",
+        "MSPM0_SDK/source/third_party/CMSIS/Core/Include",
+        "../../Core",
+        "../../App",
+        "../../BSP",
+        "../../Mod"
+    ],
+    "libDirs": [],
+    "defines": [
+        "__MSPM0G3507__"
+    ],
+    "sourceList": [
+        "../../App/System.c",
+        "../../Core/startup_mspm0g350x_gcc.c",
+        "../../Core/ti_msp_dl_config.c"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 5,
+        "afterBuildTasks": [],
+        "asm-compiler": {},
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "one-elf-section-per-data": true,
+            "one-elf-section-per-function": true,
+            "optimization": "level-debug",
+            "warnings": "all-warnings"
+        },
+        "global": {
+            "$float-abi-type": "hard",
+            "arm-thumb-mode": "thumb",
+            "not-use-syscalls": true,
+            "output-debug-info": "enable",
+            "use-newlib-nano": true,
+            "toolPrefix": "arm-none-eabi-",
+            "microcontroller-cpu": "cortex-m0+",
+            "microcontroller-fpu": "cortex-m0+",
+            "microcontroller-float": "cortex-m0+",
+            "$arch-extensions": "",
+            "$clang-arch-extensions": "",
+            "$armlink-arch-extensions": ""
+        },
+        "linker": {
+            "$outputTaskExcludes": [
+                ".bin"
+            ],
+            "$toolName": "gcc",
+            "LIB_FLAGS": "-lm",
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "link-scatter": [
+                "d:/Name/Code/TI/Template_GCC/Core/device_linker.lds"
+            ]
+        }
+    },
+    "env": {
+        "workspaceFolder": "d:\\Name\\Code\\TI\\Template_GCC\\IDE\\EIDE",
+        "workspaceFolderBasename": "EIDE",
+        "OutDir": "d:\\Name\\Code\\TI\\Template_GCC\\IDE\\EIDE\\build\\Debug",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\Debug",
+        "ProjectName": "M0G3507",
+        "ConfigName": "Debug",
+        "ProjectRoot": "d:\\Name\\Code\\TI\\Template_GCC\\IDE\\EIDE",
+        "ExecutableName": "d:\\Name\\Code\\TI\\Template_GCC\\IDE\\EIDE\\build\\Debug\\M0G3507",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\NameY\\.vscode\\extensions\\cl.eide-3.26.9\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\NameY\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\NameY\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "D:\\Tool\\ArmGUNToolchain"
+    },
+    "sysPaths": []
+}
